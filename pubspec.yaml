@@ -1,0 +1,44 @@
+name: uni_ride
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  gap: ^3.0.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  fonts:
+      - family: SF-Pro
+        fonts:
+          - asset: fonts/SF-Pro-Text-Bold.otf
+          - asset: fonts/SF-Pro-Text-BoldItalic.otf
+          - asset: fonts/SF-Pro-Text-Heavy.otf
+          - asset: fonts/SF-Pro-Text-HeavyItalic.otf
+          - asset: fonts/SF-Pro-Text-Light.otf
+          - asset: fonts/SF-Pro-Text-LightItalic.otf
+          - asset: fonts/SF-Pro-Text-Medium.otf
+          - asset: fonts/SF-Pro-Text-MediumItalic.otf
+          - asset: fonts/SF-Pro-Text-Regular.otf
+          - asset: fonts/SF-Pro-Text-RegularItalic.otf
+          - asset: fonts/SF-Pro-Text-Semibold.otf
+          - asset: fonts/SF-Pro-Text-SemiboldItalic.otf
+      - family: Sk-Modernist
+        fonts:
+          - asset: fonts/Sk-Modernist-Bold.otf
+          - asset: fonts/Sk-Modernist-Mono.otf
+          - asset: fonts/Sk-Modernist-Regular.otf
